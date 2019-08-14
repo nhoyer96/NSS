@@ -1,5 +1,3 @@
-// Improved version of the 'main.cpp' file
-//
 // Solver for the TOV equation
 // Solves for a static and radially symmetric Neutron Star
 //
@@ -123,8 +121,8 @@ int main(){
       if(v_p.at(i).compare("to_vary") == 0) p_to_vary = v_v.at(i);
       if(v_p.at(i).compare("option") == 0) option = v_v.at(i);
 
-      if(v_p.at(i).compare("file_name") == 0) file_name = v_v.at(i);
-      if(v_p.at(i).compare("file_name2") == 0) file_nameX = v_v.at(i);
+      if(v_p.at(i).compare("file_nameS") == 0) file_name = v_v.at(i);
+      if(v_p.at(i).compare("file_nameM") == 0) file_nameX = v_v.at(i);
       if(v_p.at(i).compare("frac") == 0) frac = std::stod(v_v.at(i));
       if(v_p.at(i).compare("dr") == 0) dr = std::stod(v_v.at(i));
       if(v_p.at(i).compare("stop") == 0) stop = std::stod(v_v.at(i));
