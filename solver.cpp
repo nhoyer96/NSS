@@ -117,7 +117,7 @@ int main(){
       if(v_p.at(i).compare("mass_min") == 0) mass_min = std::stod(v_v.at(i));
       if(v_p.at(i).compare("mass_max") == 0) mass_max = std::stod(v_v.at(i));
       if(v_p.at(i).compare("nns") == 0) nns = (unsigned long) std::stod(v_v.at(i));
-      if(v_p.at(i).compare("method") == 0) method = v_v.at(i);
+      if(v_p.at(i).compare("mode") == 0) method = v_v.at(i);
       if(v_p.at(i).compare("to_vary") == 0) p_to_vary = v_v.at(i);
       if(v_p.at(i).compare("option") == 0) option = v_v.at(i);
 
