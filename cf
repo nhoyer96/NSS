@@ -1,4 +1,4 @@
-option           Multiple
+mode             Multiple
 method           Rk4
 to_vary          M
 kappa            1.98183e-6
@@ -12,8 +12,8 @@ mass_min         1.1
 mass_max         2.2
 nns              100
 
-file_name        Single.csv
-file_nameX       Multiple.csv
+file_nameS       Single.csv
+file_nameM       Multiple.csv
 frac             1e-4
 dr               400.0
 stop             1.0
