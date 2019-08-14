@@ -11,6 +11,8 @@ Then, compile "solver.cpp" and edit the config file:
 ```shell
 `g++ -std=c++11 -o solver solver.cpp`
 ```
+Afterwards, simply run `./solver`.
+
 The contents of the config file are as follows:
 
 | Parameter       | Value        | Option
