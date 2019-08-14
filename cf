@@ -1,0 +1,24 @@
+option           Multiple
+method           Rk4
+to_vary          M
+kappa            1.98183e-6
+gamma            2.75
+maximal_radius   20.0
+total_mass       1.6
+mass_resolution  1e-3
+radius_min       16.0
+radius_max       20.0
+mass_min         1.1
+mass_max         2.2
+nns              100
+
+file_name        Single.csv
+file_nameX       Multiple.csv
+frac             1e-4
+dr               400.0
+stop             1.0
+dr_div           350.0
+max_steps        1e5
+lower_boundary   5.0e13
+upper_boundary   5.0e17
+initial_guess    3.0e14
