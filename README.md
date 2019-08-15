@@ -1,6 +1,4 @@
-# NSS
-
-Neutron Star solver.
+# NSS: Neutron Star solver
 
 This code is a solver for the Tolman–Oppenheimer–Volkoff (TOV) equation and is designed to reproduce the density profile of neutron Stars. To do so a polytropic equation-of-state is assumed.
 
