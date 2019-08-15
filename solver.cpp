@@ -224,9 +224,6 @@ void Adapt(std::string & file_name, std::string & method, double & initial_guess
   std::vector < std::vector < double > > results; // from Single-function
 
   // another break criteria
-  // fix this: When central density runs into boundary, stop the iterations:
-  // Otherwise: If we constantly deviate from the goal of 1.0 in mass / M_total
-
   double break_res = 0.1;
 
  // if((residual1 < break_res) || (residual2 < break_res)) result.back().at(4) = -2000.0;
