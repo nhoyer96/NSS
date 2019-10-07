@@ -2,7 +2,7 @@
 
 This code is a solver for the Tolman–Oppenheimer–Volkoff (TOV) equation and is designed to reproduce the density profile of neutron Stars. To do so a polytropic equation-of-state is assumed.
 
-Visit [this website](http://caad-group.ddnss.de/neutronstar_new/) for an interactive version with preview of your data.
+Visit [this website](http://caad-group.ddnss.de/neutronstar/) for an interactive version with preview of your data.
 
 To use the code download the files "solver.cpp" as well as its config file "cf".
 Then, compile "solver.cpp" and edit the config file:
